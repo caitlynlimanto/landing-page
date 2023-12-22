@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.main-header {
+  font-family: 'FreeMono', sans-serif;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.header-links {
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  gap: 25px;
+  margin-right: 35px;
+}
+
+.description {
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.welcome-statement {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
+}
+
+.welcome-description {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 450px;
+  text-align: center;
+}
+
+.dog {
+  height:100px;
+  width: auto;
+}
+
+.current-event-text {
+  padding-top: 70px;
+  padding-left: 125px;
+  font-size: 30px;
+  background-color: rgb(210, 221, 237);
+}
+
+.current-events {
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+  background-color: rgb(210, 221, 237);
+}
+
+.events-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.current-event .events-img {
+  height: 110px;
+  width: auto;
+}
